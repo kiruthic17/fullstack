@@ -1,0 +1,146 @@
+/* upload.css */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+  }
+  
+  body {
+    background-color: #94adf5a4;
+    overflow-x: hidden;
+  }
+  
+  header {
+    height: 70px;
+    width: 100vw;
+    padding: 0 30px;
+    background-color: #fafaff;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 1px 1px 15px rgba(161, 182, 253, 0.825);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logojsecee {
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(4, 4, 4);
+    font-family: "poppins", sans-serif;
+    margin-left: 1110px;
+  }
+  
+  .main-containeeer {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    top: 70px;
+    z-index: 1;
+  }
+  
+  .borderbox1ee {
+    background: linear-gradient(to bottom, #f6d7ed 0%, #a88beb 40%);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 55vh;
+    width: 800px;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  
+  .mainee {
+    margin-top: 50px;
+    border-radius: 10px;
+    height: 1000px;
+    width: 70%;
+    margin-left: 120px;
+  }
+  
+  .my-5ee {
+    font-size: 30px;
+    padding-left: 100px;
+  }
+  
+  .two-colsee {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .two-colsee label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .btnsee {
+    text-align: right;
+    margin-top: 3rem;
+    width: 100px;
+    margin-left: 100px;
+  }
+  
+  .btnsee button {
+    background-image: linear-gradient(-180deg, #7c84fa 0%, #a6b4f5 100%);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 270%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 37px;
+  }
+  
+  .btnsee button:hover {
+    background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
+  }
+  
+  @media (min-width: 768px) {
+    .btnsee button {
+      padding: 1rem 2rem;
+    }
+  }
+.belloee{
+    height: 45px;
+    width: 45px;
+    margin-left: -112vh;
+}
+.button-9434 {
+    background-image: linear-gradient(-180deg, #7c84fa 0%, #a6b4f5 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 270%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 37px;
+  }
+  
+  .button-9434:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
+  
+  @media (min-width: 768px) {
+    .button-9434 {
+      padding: 1rem 2rem;
+    }
+  }
